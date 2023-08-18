@@ -42,7 +42,7 @@ def display_subject_buttons(subjects_list):
                 with open(selected_subject_path, "wb") as file:
                     file.write(selected_subject_id.encode("utf-8"))
                 link_url = "https://web-arab.streamlit.app/Chat"  # Replace with the desired URL
-                webbrowser.open(link_url)
+                st.write("<a href="https://web-arab.streamlit.app/Chat">", usafe_allow_html=True)
 
 
 def main():
