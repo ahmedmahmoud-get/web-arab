@@ -41,7 +41,7 @@ def display_subject_buttons(subjects_list):
                     os.getcwd(), "selected_subject.txt")
                 with open(selected_subject_path, "wb") as file:
                     file.write(selected_subject_id.encode("utf-8"))
-                link_url = "http://localhost:8501/Chat"  # Replace with the desired URL
+                link_url = "https://web-arab.streamlit.app/Chat"  # Replace with the desired URL
                 webbrowser.open(link_url)
 
 
