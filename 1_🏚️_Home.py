@@ -43,7 +43,7 @@ def display_subject_buttons(subjects_list):
                     file.write(selected_subject_id.encode("utf-8"))
                 link_url = "https://web-arab.streamlit.app/Chat"  # Replace with the desired URL
                 st.write('<a href="https://web-arab.streamlit.app/Chat"></a>', usafe_allow_html=True)
-
+ 
 
 def main():
     # Display custom styles and headers
