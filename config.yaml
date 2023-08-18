@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    admin:
+      email: hkadri@gmail.com
+      name: Houria Kadri
+      password: $2b$12$1u3AEh2.tJQFyJCqzJ3rZOs/TBQs/CDhF5Flsm4Ce/eE1LJFvwtjO
+    admin2:
+      email: hkadri@gmail.com
+      name: Houria Kadri
+      password: $2b$12$aUKKg15v5PJSKBujiit7xO3AWflvlD0y69ZFZFrOO93n1HAJo3YSG
+    admin3:
+      email: hkadri@gmail.com
+      name: Houria Kadri
+      password: $2b$12$luflkBElL3RKRCuSHzoxEekklcjCEPDA57D15VcpvYYWL.SLvBJQy
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+preauthorized:
+  emails:
+    - melsby@gmail.com
