@@ -16,6 +16,7 @@ from PyPDF2 import PdfReader
 st.set_page_config(page_title="Chat with multiple PDFs",
                    page_icon=":books:", layout="wide")
 
+load_dotenv()
 # Cache data functions
 
 
@@ -138,7 +139,7 @@ def sidebar():
 
 
 def main():
-    load_dotenv()
+    
 
     hide_st_style = """
     <style>
